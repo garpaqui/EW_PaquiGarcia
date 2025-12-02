@@ -1,2 +1,23 @@
-*{ background-image: url(img/fondo.jpg);}
-#trabajos{}
+*{padding: 0;
+    margin: 0 auto;
+text-align: center;}
+
+body{ background-image: url(img/fondo.jpg);
+    background-size: cover;}
+
+#trabajos{list-style: none;}
+
+header{margin-bottom: 50px;
+margin-top: 50px;}
+h1{color:aliceblue;
+font-family:monospace;}
+
+h3{color:white;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+.Actividad{ border: 2px pink solid;
+background-color: pink;
+width: 600px;
+height: 50px;
+margin: 50px;}
+.Actividad:hover{color:blueviolet}
