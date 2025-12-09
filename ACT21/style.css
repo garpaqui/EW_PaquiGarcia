@@ -1,0 +1,13 @@
+
+.contenedor{background-color: darkgrey; 
+    width:80vw;  
+    height: 70vh;
+    margin:auto}
+.cuadrado1{background-color: fuchsia; 
+    width: 60vw; 
+    height: 30vh;}
+.cuadrado2{background-color: greenyellow; 
+    width: 20vw; height: 30vh;}
+.cuadrado3{background-color: red;
+    width: 80vw;
+    height: 10vh;}
