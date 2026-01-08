@@ -1,0 +1,12 @@
+*{text-align: center;}
+
+body{ background-image: url(img/Fondo.webp);
+background-size: cover;
+padding-top: 250px;}
+
+p{color: greenyellow;
+font-family: "story Script";
+text-decoration: none;}
+
+.texto{color: white;
+font-family:"roboto";}

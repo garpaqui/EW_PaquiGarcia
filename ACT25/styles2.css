@@ -1,0 +1,27 @@
+.contenedor{display: flex;
+text-align: center;
+padding-left: 100px;
+padding-right: 50px;
+padding-top: 185px;}
+
+.contenedor div{font-family: "story Script";
+    font-size:large;
+    margin-left: 20px;
+    flex-flow: row wrap;}
+
+.pomelo:hover{filter: brightness(30%);}
+.limones:hover{filter:brightness(50%);}
+.naranja:hover{filter: brightness(80%);}
+.bermagota:hover{filter:brightness(75%);}
+
+.caja{text-align: center;
+    font-family: "roboto";
+    font-size: large;
+    border: 2px orange solid;
+    background-color: yellow;
+    width: 100px;
+    height: 65px;
+    margin-top: 75px;
+    margin-left: 700px;
+    margin-right: 500px;
+    margin-bottom: 25px;} 
