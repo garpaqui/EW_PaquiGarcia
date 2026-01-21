@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Titulo{
+    font-family: 'Chewy', cursive;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+.Subtitulo{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    flex-wrap: wrap;
+    color: rgb(255, 3, 3);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.rojo{
+    background-color: red;
+    padding: 10px;
+    
+    color: white;
+    cursor: pointer;
+}
+.rojo:hover{
+    background-color: darkred;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.productos{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-family: "chewy";
+    font-size: 25px;
+}
+.producto1{
+    background-color: blue;
+    padding: 30px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+.producto1 p{
+    margin-top: 45px;
+    color: white;
+}
+.producto1:hover{
+    translate: -10px 30px;
+    border: 2px blue solid;
+    background-color: white;
+}
+.producto2{
+    background-color: fuchsia;
+    padding: 30px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+.producto2 p{
+    margin-top: 35px;
+    color: white;
+}
+.producto2:hover{
+    translate: 0px -30px;
+    border: 2px fuchsia solid;
+    background-color: white;
+    }
+
+.producto3{
+    background-color: yellow;
+    padding: 30px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+.producto3 p{
+    margin-top: 35px;
+}
+
+.producto3:hover{
+    translate: 0px 30px;
+    border: 2px yellow solid;
+    background-color: white;
+}
+.producto4{
+    background-color: green;
+    padding: 30px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-weight: bold;
+}   
+.producto4 p{
+    margin-top: 45px;
+    color: white;
+}
+.producto4:hover{
+    translate: 10px -30px;
+    border: 2px green solid;
+    background-color: white;
+}
+.contenedor_mapa{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 4px solid red;
+}
+.imagen_footer{
+    width: 100%;
+    height: auto;
+}
