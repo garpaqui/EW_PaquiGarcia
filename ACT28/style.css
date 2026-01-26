@@ -1,0 +1,80 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+h1{font-family: new-astro, sans-serif;
+font-weight: 700;
+font-style: normal;
+margin-top: 30px;
+margin-left: 30px;
+font-size: 50px;
+margin-bottom: 30px;}
+
+nav{background-color: #FE4934;
+color: white;
+padding: 5px;
+font-size: 25px;
+margin-left: 30px;
+margin-right: 30px;
+border-radius: 5px;
+text-align: center;}
+
+.nav{list-style: none;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;}
+
+.menu{font-family: alight-slab, sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 20px;
+margin: 0 30;
+cursor: pointer;}
+
+.menu:hover{text-decoration: underline;}
+
+img{margin-top: 30px;
+margin-left: 10px;
+margin-right: 10px;
+cursor: pointer;}
+
+main{font-family: alight-slab, sans-serif;
+font-weight: 600;
+font-style: normal;
+text-align: center;
+font-size: 20px;
+margin-top: 20px;
+margin-bottom: 20px;}
+
+section{background-image: url(img/Fondo.webp);
+background-size: cover;
+width: 100%;
+height: auto;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;}
+
+.imagenes{
+display: flex;
+justify-content: center;
+height: 300px;
+width: auto;
+margin: 30px;}
+
+footer{
+font-family: alight-slab, sans-serif;
+font-style: normal;
+font-size: 30px;
+color:#FE4934;
+margin-bottom: 35px;
+margin: 30px;}
+
+.izquierda{float: left; 
+list-style: none;}
+
+.derecha{float: right;
+list-style: none;}
+
+footer:hover{
+text-decoration: underline;
+cursor: pointer;}
