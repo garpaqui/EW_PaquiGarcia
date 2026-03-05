@@ -31,4 +31,5 @@ color:mediumpurple;}
 .Actividad:hover{color:blueviolet}
 
 li{ margin-top: 50px;
-margin-bottom: 50px;}
+margin-bottom: 50px;
+text-decoration: none;}
