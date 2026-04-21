@@ -1,0 +1,50 @@
+*{box-sizing: border-box;
+font-family: "forager", sans-serif;
+font-weight: 400;
+font-style: normal;}
+
+h1{font-family: "forager", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 2vw;}
+
+header{ border: solid 4px orange;
+width: 80%;
+margin:5vw auto;
+padding:3vw;}
+
+nav{display: flex;
+justify-content: space-around;}
+
+div{display: flex;
+justify-content: space-around;}
+
+img{width: 18vw;}
+
+.enlace{font-size: 2vw;
+color: orange;}
+
+header:hover{background-image: url(fondo.jpg);
+background-size:contain;}
+
+section{ background-color: orange;
+width: 80%;
+margin:5vw auto;
+padding: 2vw;}
+
+h4{font-family: "forager", sans-serif;
+font-weight: 700;
+font-style: normal;}
+
+footer{border: solid 4px orange;
+width: 80%;
+margin:5vw auto;
+padding:1vw;}
+
+.texto{text-align: center;}
+
+@media only screen and (max-width:600px) {
+    body{background-color: black;}
+    h1{color: orange;}
+    .texto{color: orange}
+}
